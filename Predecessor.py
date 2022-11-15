@@ -1,0 +1,1 @@
+antecessor = lambda userInput: print(userInput - 1)

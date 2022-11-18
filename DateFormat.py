@@ -1,6 +1,7 @@
 userInput = input()
 
-handledUserInput = str(userInput).split("/")
+handledUserInput = userInput.split("/")
+
 day = handledUserInput[0]
 month = handledUserInput[1]
 year = handledUserInput[2]

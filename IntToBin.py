@@ -1,5 +1,6 @@
-binario = lambda userInput: bin(userInput)
+def binario(a):
+    print(bin(a))
 
 for x in range(5):
     userInput = input()
-    print(binario(int(userInput)))
+    binario(int(userInput))

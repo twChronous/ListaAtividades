@@ -1,5 +1,6 @@
-hexadecimal = lambda userInput: hex(userInput)
+def hexadecimal (a):
+    print(hex(a))
 
 for x in range(5):
     userInput = input()
-    print(hexadecimal(int(userInput)))
+    hexadecimal (int(userInput))

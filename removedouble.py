@@ -1,0 +1,1 @@
+remove_duplicatas = lambda a: print(list(dict.fromkeys(a)))
